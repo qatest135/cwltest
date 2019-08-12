@@ -161,7 +161,7 @@ outputs:
   "sbg:modifiedOn": 1459933448
   "sbg:modifiedBy": genomko
 id: genomko/milmat-batch-grep/grep-workflow-batch/2
-label: grep workflow batch
+label: "grep workflow batch"
 description: ''
 hints:
 - class: sbg:GoogleInstanceType
