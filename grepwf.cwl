@@ -1,5 +1,6 @@
 ---
 class: Workflow
+cwlVersion: v1.0
 steps:
 - id: "#grep_cwl_tool"
   run:
