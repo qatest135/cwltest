@@ -1,5 +1,5 @@
 class: Workflow
-cwlVersion: sbg:draft-2
+cwlVersion: nonvalid
 description: ''
 hints:
 - {class: 'sbg:GoogleInstanceType', value: n1-standard-1}
@@ -70,7 +70,7 @@ steps:
     - id: '#pattern'
       inputBinding: {position: 1, 'sbg:cmdInclude': true, separate: true}
       type: ['null', string]
-    - id: '#fileinnonvalid'
+    - id: '#filein'
       inputBinding: {itemSeparator: null, position: 2, 'sbg:cmdInclude': true, separate: true}
       required: false
       sbg:stageInput: null
