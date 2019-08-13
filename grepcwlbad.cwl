@@ -1,5 +1,5 @@
 class: Workflow
-cwlVersion: nonvalid
+# cwlVersion: nonvalid
 description: ''
 hints:
 - {class: 'sbg:GoogleInstanceType', value: n1-standard-1}
