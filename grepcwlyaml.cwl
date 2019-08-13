@@ -26,8 +26,8 @@ outputs:
   source: ['#grep_cwl_tool.outfile']
   type: ['null', File]
 requirements: []
-sbg:batchBy: {type: item}
-sbg:batchInput: '#filein'
+# sbg:batchBy: {type: item}
+# sbg:batchInput: '#filein'
 sbg:canvas_x: -1
 sbg:canvas_y: -2
 sbg:canvas_zoom: 1
