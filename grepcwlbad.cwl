@@ -6,13 +6,13 @@ hints:
 - {class: 'sbg:AWSInstanceType', value: c4.large;ebs-gp2;2}
 id: genomko/milmat-batch-grep/grep-workflow-batch/2
 inputs:
-#- id: '#filein'
-#  label: filein
-#  sbg:x: 105
-#  sbg:y: 97
-#  type:
-#  - 'null'
-#  - {items: File, name: filein, type: array}
+- id: '#filein'
+  label: filein
+  sbg:x: 105
+  sbg:y: 97
+  type:
+  - 'null'
+  - {items: File, name: filein, type: array}
 - id: '#pattern'
   type: ['null', string]
 label: grep workflow batch
@@ -70,7 +70,7 @@ steps:
     - id: '#pattern'
       inputBinding: {position: 1, 'sbg:cmdInclude': true, separate: true}
       type: ['null', string]
-    - id: '#filein'
+    - id: '#fileinnonvalid'
       inputBinding: {itemSeparator: null, position: 2, 'sbg:cmdInclude': true, separate: true}
       required: false
       sbg:stageInput: null
