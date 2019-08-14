@@ -1,5 +1,5 @@
 class: Workflow
-cwlVersion: sbg:draft-2
+cwlVersion: v1.0
 description: ''
 hints:
 - {class: 'sbg:GoogleInstanceType', value: n1-standard-1}
@@ -10,9 +10,9 @@ inputs:
   label: filein
   sbg:x: 105
   sbg:y: 97
-  #type:
-  #- 'null'
-  #- {items: File, name: filein, type: array}
+  type:
+  - 'null'
+  - {items: File, name: filein, type: array}
 - id: '#pattern'
   type: ['null', string]
 label: grep workflow batch
