@@ -1,5 +1,5 @@
 class: Workflow
-cwlVersion: invalid
+cwlVersion: sbg:draft-2
 description: ''
 hints:
 - {class: 'sbg:GoogleInstanceType', value: n1-standard-1}
@@ -24,7 +24,7 @@ outputs:
   sbg:x: 990
   sbg:y: 258
   source: ['#grep_cwl_tool.outfile']
-  type: ['null', File]
+  #type: ['null', File]
 requirements: []
 # sbg:batchBy: {type: item}
 # sbg:batchInput: '#filein'
